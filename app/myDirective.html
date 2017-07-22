@@ -1,0 +1,20 @@
+<div ng-cloak ng-controller="ctrl">
+  <md-content class="md-padding" layout-xs="column" layout="row" layout-align="center">
+    <div flex-xs="60" flex-gt-xs="60" layout="column">
+      <md-card md-theme="default" md-whiteframe="6" md-theme-watch>
+        <md-card-title>
+          <md-card-title-text>
+            <span class="md-headline">What is your name?</span>
+            <div class="md-padding">
+                <md-input-container layout="row">
+                    <label>Name</label>
+                    <input ng-model="user.name">
+                </md-input-container>
+                <md-button ng-click="sayHello()">Hello</md-button>
+            </div>
+          </md-card-title-text>
+        </md-card-title>
+      </md-card>
+    </div>
+  </md-content>
+</div>

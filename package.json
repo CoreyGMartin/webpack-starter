@@ -1,0 +1,47 @@
+{
+  "name": "webpack-stater",
+  "version": "1.0.0",
+  "description": "A template for developing your frontend and backend in one project using webpack-dev-server and nodemon",
+  "main": "server.js",
+  "scripts": {
+    "dev": "concurrently --kill-others \"webpack-dev-server\" \"nodemon server.js\"",
+    "build": "webpack",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CoreyGMartin/webpack-stater.git"
+  },
+  "author": "Corey Martin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CoreyGMartin/webpack-stater/issues"
+  },
+  "homepage": "https://github.com/CoreyGMartin/webpack-stater#readme",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "concurrently": "^3.5.0",
+    "css-loader": "^0.28.3",
+    "html-loader": "^0.4.5",
+    "html-webpack-plugin": "^2.29.0",
+    "loglevel": "^1.4.1",
+    "nodemon": "^1.11.0",
+    "style-loader": "^0.18.1",
+    "webpack": "^2.5.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "dependencies": {
+    "angular": "^1.6.4",
+    "angular-animate": "^1.6.4",
+    "angular-aria": "^1.6.4",
+    "angular-material": "^1.1.4",
+    "angular-messages": "^1.6.4",
+    "body-parser": "^1.17.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
+    "morgan": "^1.8.2"
+  }
+}
