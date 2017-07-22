@@ -19,3 +19,4 @@ A template for developing your angular frontend and express backend in one proje
     * babel-loader
     * html-webpack-plugin
 * concurrently
+* nodemon
