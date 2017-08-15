@@ -1,4 +1,4 @@
-# webpack-stater
+# webpack-starter
 A template for developing your angular frontend and express backend in one project using webpack-dev-server and nodemon.
 
 ## Usage
